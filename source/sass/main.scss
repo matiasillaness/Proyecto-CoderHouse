@@ -1,3 +1,11 @@
+$blancoCrema:  rgb(236, 236, 236);
+$negroCrema:  rgb(15, 15, 15);
+$negroOscuro:  rgb(10,10,10);
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +20,7 @@ header h1{
     font-weight: bold;
 }
 header{
-    background-color: rgb(0, 0, 0);
+    background-color:$negroCrema;
 }
 .color__li{
     color: aliceblue;
@@ -23,7 +31,7 @@ header{
 }
 .color__li:hover{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: $blancoCrema;
     border-bottom: 3px solid white;   
 }
 .menu__li{
@@ -89,7 +97,7 @@ header{
 /* PAGINA INDEX */
 /* FOOTER */
 footer{
-    background-color: rgb(15, 15, 15);        
+    background-color: $negroCrema;        
 }
 footer div{
     display: flex;
@@ -102,9 +110,9 @@ footer div div{
     height: 400px;
     width:550px;
     border-radius: 30px;
-    background-color: rgba(10, 10, 10, 1);
+    background-color: $negroOscuro;
     margin: 30px 30px 30px 30px;
-    color: aliceblue;
+    color: $blancoCrema;
     padding: 20px;
     text-align: center;
 }
@@ -120,7 +128,7 @@ footer div div{
 
 .box__1--lista li a{
    text-decoration: none;
-   color:rgba(235, 235, 235, 1); 
+   color:$blancoCrema; 
    font-size: 20px;
 }
 /* CAJA 2 */
@@ -159,7 +167,7 @@ footer div div{
    font-size: 20px;
 }
 footer h6{
-    color: azure;
+    color: $blancoCrema;
 }
 .derechos{
     text-align: center;
@@ -175,7 +183,7 @@ footer h6{
 
 /* PAGINA SOBRE NOSOTROS */
 .main__sobre__nosotros{
-    background-color: rgb(255, 250, 244);
+    background-color: $blancoCrema;
 }
 
 .container {    
@@ -234,7 +242,7 @@ footer h6{
     border-radius: 30px;
   }
    .animacion:hover {
-    background-color: rgb(239, 239, 239);
+    background-color: $blancoCrema;
     border-radius: 30px;
     -webkit-box-shadow: 0px 0px 41px -3px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 41px -3px rgba(0,0,0,0.75);
@@ -271,7 +279,7 @@ footer h6{
     height: 35px;
     font-size: 24px;
     border-radius: 30px;
-    background-color: rgb(23, 23, 23);
+    background-color: $negroCrema;
     color: aliceblue;
 }
 .button__carrito{
@@ -279,16 +287,16 @@ footer h6{
     height: 35px;
     font-size: 24px;
     border-radius: 30px;
-    background-color: black;
-    color: aliceblue;
+    background-color: $negroCrema;
+    color: $blancoCrema;
 }
 .combobox{
     width: 800px;
     height: 35px;
     font-size: 24px;
     border-radius: 30px;
-    background-color: black;
-    color: aliceblue;
+    background-color: $negroCrema;
+    color: $blancoCrema;
     text-align: center;
     margin-bottom: 8px;
 }
