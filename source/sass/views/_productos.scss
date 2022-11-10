@@ -1,0 +1,42 @@
+$blancoCrema:  rgb(236, 236, 236);
+$negroCrema:  rgb(15, 15, 15);
+$negroOscuro:  rgb(10,10,10);
+
+
+.general__productos {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  
+    div {
+      height: 400px;
+      width: 400px;
+      font-size: 25px;
+      text-align: center;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  
+      img {
+        height: 290px;
+        width: 340px;
+        border-radius: 30px;
+        margin-top: 30px;
+      }
+    }
+  }
+  
+  .animacion {
+    transition: 0.4s;
+    border-radius: 30px;
+  
+    &:hover {
+      background-color: $blancoCrema;
+      border-radius: 30px;
+      -webkit-box-shadow: 0px 0px 41px -3px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 41px -3px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 41px -3px rgba(0, 0, 0, 0.75);
+    }
+  }

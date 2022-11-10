@@ -1,0 +1,37 @@
+$blancoCrema:  rgb(236, 236, 236);
+$negroCrema:  rgb(15, 15, 15);
+$negroOscuro:  rgb(10,10,10);
+
+.main__sobre__nosotros{
+    background-color: $blancoCrema;
+}
+
+.container {    
+    align-items: center;
+    padding-top: 50px;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "sobre__nosotros__foto--1 sobre__nosotros__texto--1 sobre__nosotros__texto--1"
+      "sobre__nosotros__texto--2 sobre__nosotros__texto--2 sobre__nosotros__foto--2"; 
+    
+  }
+  
+  .sobre__nosotros__foto--1 { grid-area: sobre__nosotros__foto--1; }
+  
+  .sobre__nosotros__foto--2 { grid-area: sobre__nosotros__foto--2; }
+  
+  .sobre__nosotros__texto--1 { grid-area: sobre__nosotros__texto--1; }
+  
+  .sobre__nosotros__texto--2 { grid-area: sobre__nosotros__texto--2; }
+
+  .container img{
+    border-radius: 250px;
+    padding-bottom: 30px;
+  }
+  

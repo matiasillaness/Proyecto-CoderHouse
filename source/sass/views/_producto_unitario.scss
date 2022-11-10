@@ -1,0 +1,79 @@
+$blancoCrema:  rgb(236, 236, 236);
+$negroCrema:  rgb(15, 15, 15);
+$negroOscuro:  rgb(10,10,10);
+
+
+.main__producto__unitario{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+  
+  .main__producto__unitario--2 {
+    height: auto;
+    width: min-content;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .main__producto__unitario--img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+  }
+  
+  .main__producto__unitario--texto {
+    margin-left: 20px;
+  
+    h2 {
+      font-size: 35px;
+    }
+  }
+  
+  .button__cantidad {
+    width: 30%;
+    height: 35px;
+    font-size: 24px;
+    border-radius: 30px;
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+  }
+  
+  .button__carrito {
+    width: 550px;
+    height: 35px;
+    font-size: 24px;
+    border-radius: 30px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(236, 236, 236);
+  }
+  
+  .combobox {
+    width: 800px;
+    height: 35px;
+    font-size: 24px;
+    border-radius: 30px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(236, 236, 236);
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  
+  .main__productos__unitario__relacionados {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .main__productos__unitario__relacionados--fotos img {
+    width: 370px;
+    height: 370px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .main__productos__unitario__relacionados h3 {
+    font-size: 35px;
+  }
