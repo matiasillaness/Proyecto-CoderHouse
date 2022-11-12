@@ -4,9 +4,26 @@ $negroOscuro:  rgb(10,10,10);
 
 
 
-.imagen__main--{
-    height: 100%;
+.imagen_main{
     width: 100%;
+    height: 1300px;
+    background-image: url(/Proyecto-CoderHouse/source/media/logo_page-0001.jpg);
+    background-size: cover;
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    @media (max-width:780px){
+        background-image: url(/Proyecto-CoderHouse/source/media/Fondo_Celular.jpg);
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-position: center; 
+        margin: 0;
+        padding: 0;
+    }
 }
+
+
+
 
 

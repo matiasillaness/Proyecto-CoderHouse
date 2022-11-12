@@ -38,10 +38,10 @@ footer div {
 }
 footer div div {
   height: 400px;
-  width: 550px;
+  width: 450px;
   border-radius: 30px;
   background-color: rgb(10, 10, 10);
-  margin: 30px 30px 30px 30px;
+  margin: 20px 20px 20px 20px;
   color: rgb(236, 236, 236);
   padding: 20px;
   text-align: center;
@@ -130,9 +130,25 @@ a {
   font-family: "Kanit", sans-serif;
 }
 
-.imagen__main-- {
-  height: 100%;
+.imagen_main {
   width: 100%;
+  height: 1300px;
+  background-image: url(/Proyecto-CoderHouse/source/media/logo_page-0001.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 780px) {
+  .imagen_main {
+    background-image: url(/Proyecto-CoderHouse/source/media/Fondo_Celular.jpg);
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .main__producto__unitario {
@@ -218,7 +234,7 @@ a {
 .general__productos div {
   height: 400px;
   width: 400px;
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
   margin-left: 40px;
   margin-right: 40px;
@@ -230,6 +246,10 @@ a {
   width: 340px;
   border-radius: 30px;
   margin-top: 30px;
+}
+.general__productos div a:link, .general__productos div a:visited, .general__productos div a:hover, .general__productos div a:active {
+  color: rgb(10, 10, 10);
+  text-decoration: none;
 }
 
 .animacion {
