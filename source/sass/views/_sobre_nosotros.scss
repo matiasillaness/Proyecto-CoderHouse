@@ -1,6 +1,3 @@
-$blancoCrema:  rgb(236, 236, 236);
-$negroCrema:  rgb(15, 15, 15);
-$negroOscuro:  rgb(10,10,10);
 
 .main__sobre__nosotros{
     background-color: $blancoCrema;
@@ -9,6 +6,7 @@ $negroOscuro:  rgb(10,10,10);
 .container {    
     align-items: center;
     padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,6 +17,11 @@ $negroOscuro:  rgb(10,10,10);
     grid-template-areas:
       "sobre__nosotros__foto--1 sobre__nosotros__texto--1 sobre__nosotros__texto--1"
       "sobre__nosotros__texto--2 sobre__nosotros__texto--2 sobre__nosotros__foto--2"; 
+      img{border-radius: 250px;}
+      @media (max-width:1180px) {
+        
+      
+      }
     
   }
   
@@ -30,8 +33,4 @@ $negroOscuro:  rgb(10,10,10);
   
   .sobre__nosotros__texto--2 { grid-area: sobre__nosotros__texto--2; }
 
-  .container img{
-    border-radius: 250px;
-    padding-bottom: 30px;
-  }
   
