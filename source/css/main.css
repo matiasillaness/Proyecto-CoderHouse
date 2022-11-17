@@ -155,7 +155,7 @@ footer h6 {
 
 @media (max-width: 600px) {
   .imagen_main {
-    background-image: url(../../media/fondo_celular.jpg);
+    background-image: url(../media/fondo_celular.jpg);
     background-position: center;
     background-size: cover;
     height: 583px;
@@ -392,11 +392,11 @@ footer h6 {
 
 @media (max-width: 400px) {
   .main_tabla_talles {
-    background-image: url(../../media/avat_tabla_celu.jpg);
+    background-image: url(../media/avat_tabla_celu.jpg);
     background-position: center;
     background-size: cover;
-    height: 700px;
-    width: 100%;
+    height: 600px;
+    width: auto;
   }
   .main_tabla_talles img {
     display: none;

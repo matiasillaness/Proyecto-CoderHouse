@@ -10,15 +10,15 @@
 
 @media (max-width:400px) {
     .main_tabla_talles{
-        background-image: url(../../media/avat_tabla_celu.jpg);
+        background-image: url(../media/avat_tabla_celu.jpg);
         background-position: center;
         background-size:cover;
-        height: 700px;
-        width: 100%;
-          
-        img{
+        height: 600px;
+        width: auto;
+          img{
             display: none;
-        }
+          }
+        
     }
     
 }
