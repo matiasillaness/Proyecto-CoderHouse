@@ -385,5 +385,22 @@ footer h6 {
   justify-content: center;
   width: 100%;
 }
+.main_tabla_talles img {
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .main_tabla_talles {
+    background-image: url(../../media/avat_tabla_celu.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+  }
+  .main_tabla_talles img {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
