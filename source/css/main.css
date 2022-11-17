@@ -148,25 +148,25 @@ footer h6 {
   color: rgb(236, 236, 236);
 }
 
-.imagen_main {
-  height: 1300px;
+.imagen_main img {
+  height: auto;
   width: 100%;
-  background-image: url(/source/media/logo_page-0001.jpg);
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  padding: 0;
 }
-@media (max-width: 416px) {
+
+@media (max-width: 600px) {
   .imagen_main {
-    background-image: url(/source/media/fondo_celular.jpg);
+    background-image: url(../../media/fondo_celular.jpg);
+    background-position: center;
+    background-size: cover;
     height: 583px;
     width: 100%;
     margin: 0;
     padding: 0;
   }
+  .imagen_main img {
+    display: none;
+  }
 }
-
 .main__producto__unitario {
   display: flex;
   justify-content: center;
