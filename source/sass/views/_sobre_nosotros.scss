@@ -1,13 +1,23 @@
 
 .main__sobre__nosotros{
     background-color: $blancoCrema;
+    display: flex;
+    justify-content: center;
 }
+.sobre__nosotros__foto--1 { grid-area: sobre__nosotros__foto--1; }
+  
+.sobre__nosotros__foto--2 { grid-area: sobre__nosotros__foto--2; }
 
-.container {    
+.sobre__nosotros__texto--1 { grid-area: sobre__nosotros__texto--1;}
+
+.sobre__nosotros__texto--2 { grid-area: sobre__nosotros__texto--2; }
+
+.container1 { 
+    width: 90%;
+    height: auto;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 35px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 0.2fr;
@@ -17,20 +27,53 @@
     grid-template-areas:
       "sobre__nosotros__foto--1 sobre__nosotros__texto--1 sobre__nosotros__texto--1"
       "sobre__nosotros__texto--2 sobre__nosotros__texto--2 sobre__nosotros__foto--2"; 
-      img{border-radius: 250px;}
-      @media (max-width:1180px) {
-        
-      
-      }
+      img{width: 400px;
+        height: 400px;
+        border-radius: 250px}
+       
+  }
+  @media (max-width:991px) {
+    .container1{
+       
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "sobre__nosotros__foto--1 sobre__nosotros__texto--1"   
+        "sobre__nosotros__texto--2 sobre__nosotros__foto--2"; 
+        font-size: 20px;
+        text-align: center;       
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 130px
+        }
+    }
     
   }
+  @media (max-width:670px) {
+    .container1{
+        
+        
+        grid-template-columns: auto;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "sobre__nosotros__foto--1"
+        "sobre__nosotros__texto--1"
+        "sobre__nosotros__foto--2" 
+        "sobre__nosotros__texto--2"; 
+        gap: 10px; 
+        font-size: 25px;
+        text-align: center;
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 100px
+        }
+            
+    }
+  }
+
   
-  .sobre__nosotros__foto--1 { grid-area: sobre__nosotros__foto--1; }
-  
-  .sobre__nosotros__foto--2 { grid-area: sobre__nosotros__foto--2; }
-  
-  .sobre__nosotros__texto--1 { grid-area: sobre__nosotros__texto--1; }
-  
-  .sobre__nosotros__texto--2 { grid-area: sobre__nosotros__texto--2; }
+
 
   

@@ -1,0 +1,16 @@
+@mixin flexboxmix($display,$content) {
+    display: $display;
+    justify-content: $content;
+}
+@mixin tamanio($h,$w) {
+    height: $h;
+    width: $w;
+}
+
+@mixin cajas($h,$w,$b) {
+    height: $h;
+    width: $w;
+    border-radius: $b;
+}
+
+

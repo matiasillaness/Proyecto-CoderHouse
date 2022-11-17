@@ -11,9 +11,7 @@ footer {
       flex-wrap: wrap;
   
       div {
-        height: 400px;
-        width: 450px;
-        border-radius: 30px;
+        @include cajas(400px,450px,30px);
         background-color: $negroOscuro;
         margin: 20px 20px 20px 20px;
         color: $blancoCrema;

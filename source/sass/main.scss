@@ -1,15 +1,30 @@
-$blancoCrema:  rgb(236, 236, 236);
+/* $blancoCrema:  rgb(236, 236, 236);
 $negroCrema:  rgb(15, 15, 15);
 $negroOscuro:  rgb(10,10,10);
+@mixin flexboxmix($display,$content) {
+    display: $display;
+    justify-content: $content;
+}
+@mixin tamanio($h,$w) {
+    height: $h;
+    width: $w;
+}
 
+@mixin cajas($h,$w,$b) {
+    height: $h;
+    width: $w;
+    border-radius: $b;
+} */
 
-@import "./layout/header";
-@import "./layout/footer";
 
 @import "./base/reset";
 @import "./base/typography";
 
 @import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./layout/header";
+@import "./layout/footer";
 
 @import "./views/index";
 @import "./views/producto_unitario";
