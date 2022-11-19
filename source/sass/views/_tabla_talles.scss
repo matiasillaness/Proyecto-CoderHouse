@@ -8,15 +8,16 @@
 }
 
 
-@media (max-width:400px) {
+@media (max-width:600px) {
     .main_tabla_talles{
-        background-image: url(../media/avat_tabla_celu.jpg);
-        background-position: center;
-        background-size:cover;
-        height: 600px;
-        width: auto;
-          img{
-            display: none;
+            background-image: url(../media/tabla_talles_celular.png);
+            background-position: center;
+            background-size:100% 100%;    
+            background-repeat: no-repeat;      
+            height: 1111px;
+            width: 100%;      
+          img{          
+           display: none;
           }
         
     }

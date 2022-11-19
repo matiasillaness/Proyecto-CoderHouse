@@ -7,7 +7,7 @@
   }
   
   .main__producto__unitario--2 {
-    @include tamanio(auto,78%); //hw
+    @include tamanio(auto,78%); 
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -85,6 +85,5 @@
       align-items: center;
       text-align: center;
     }
-    
   }
   
