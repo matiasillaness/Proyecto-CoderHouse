@@ -404,4 +404,15 @@ footer h6 {
   }
 }
 
+
+#main-404{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 49.5vh;
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+}
 /*# sourceMappingURL=main.css.map */
